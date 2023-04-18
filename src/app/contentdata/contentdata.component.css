@@ -1,0 +1,102 @@
+.flex-container {
+    height: auto;
+    display: flex;
+    /* background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    background: linear-gradient(to right, #FF4B2B, #FF416C); */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: static;
+    background: linear-gradient(to bottom, #6e529d 0%, #d97b93 100%);
+}
+
+.flex-container>div {
+    background-color: silver;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    flex-basis: 350px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    width: 10em;
+    height: 10em;
+    margin: 2em;
+    float: left;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+
+.total {
+    position: fixed;
+    top: 10px;
+    right: 230px;
+    color: red;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    background: #000
+}
+
+router-outlet {
+    background-color: black;
+}
+
+#Shirts {
+    background-image: url('/assets/Shirts.jpg');
+    background-repeat: no-repeat;
+}
+
+#Coats {
+    background-image: url('/assets/Coats.jfif');
+    background-repeat: no-repeat;
+}
+
+#Pants {
+    background-image: url('/assets/Pants.jpg');
+    background-repeat: no-repeat;
+}
+
+#Shoes {
+    background-image: url('/assets/Shoes.jpg');
+    background-repeat: no-repeat;
+}
+
+#Suits {
+    background-image: url('/assets/Suits.jfif');
+    background-repeat: no-repeat;
+}
+
+#Skirts {
+    background-image: url('/assets/Skirts.jfif');
+    background-repeat: no-repeat;
+}
+
+#T-Shirts {
+    background-image: url('/assets/TShirts.jfif');
+    background-repeat: no-repeat;
+}
+
+#Jeans {
+    background-image: url('/assets/Jeans.jfif');
+    background-repeat: no-repeat;
+}
+
+#Ties {
+    background-image: url('/assets/Ties.jpg');
+    background-repeat: no-repeat;
+}
+
+#Socks {
+    background-image: url('/assets/Socks.jfif');
+    background-repeat: no-repeat;
+}
+
+p{
+    color: gold;
+}

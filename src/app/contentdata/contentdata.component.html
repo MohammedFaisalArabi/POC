@@ -1,0 +1,81 @@
+<div class="flex-container">
+
+    <div id="Shirts">
+        <div>
+            <p><i class="fa-solid fa-shirt">Shirts</i>
+            </p>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger buttonoverlap" id="subshirts" (click)="remShirts()">-</button>
+            <button type="button" class="btn btn-success buttonoverlap" id="addshirts" (click)="addShirts()">+</button>
+        </div>
+    </div>
+    <div id="Coats">
+        <p><i class="fa-solid fa-vest">Coats</i></p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger" id="subcoats" (click)="remCoats()">-</button>
+            <button type="button" class="btn btn-success" id="addcoats" (click)="addCoats()">+</button>
+        </div>
+    </div>
+    <div id="Pants">
+        <p><i class="fa-solid fa-person">Pants</i></p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger" id="subpants" (click)="remPants()">-</button>
+            <button type="button" class="btn btn-success" id="addpants" (click)="addPants()">+</button>
+        </div>
+    </div>
+    <div id="Shoes">
+        <p><i class="fa-solid fa-shoe-prints">Shoes</i></p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger" id="subshoes" (click)="remShoes()">-</button>
+            <button type="button" class="btn btn-success" id="addshoes" (click)="addShoes()">+</button>
+        </div>
+    </div>
+    <div id="Suits">
+        <p><i class="fa-solid fa-user-tie">Suits</i></p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger" id="subsuits" (click)="remSuits()">-</button>
+            <button type="button" class="btn btn-success" id="addsuits" (click)="addSuits()">+</button>
+        </div>
+    </div>
+    <div id="Skirts">
+        <p><i class="fa-solid fa-person-dress">Skirts</i></p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger" id="subskirts" (click)="remSkirts()">-</button>
+            <button type="button" class="btn btn-success" id="addskirts" (click)="addSkirts()">+</button>
+        </div>
+    </div>
+    <div id="T-Shirts">
+        <p><i class='fas fa-tshirt'>T-Shirts</i></p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger" id="subtshirts" (click)="remTShirts()">-</button>
+            <button type="button" class="btn btn-success" id="addtshirts" (click)="addTShirts()">+</button>
+        </div>
+    </div>
+    <div id="Jeans">
+        <p><i class="fa-solid fa-person">Jeans</i></p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger" id="subjeans" (click)="remJeans()">-</button>
+            <button type="button" class="btn btn-success" id="addjeans" (click)="addJeans()">+</button>
+        </div>
+    </div>
+    <div id="Ties">
+        <p><i class="fa-solid fa-user-tie">Ties</i></p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger" id="subties" (click)="remTies()">-</button>
+            <button type="button" class="btn btn-success" id="addties" (click)="addTies()">+</button>
+        </div>
+    </div>
+    <div id="Socks">
+        <p><i class="fa-solid fa-socks">Socks</i></p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-danger" id="subsocks" (click)="remSocks()">-</button>
+            <button type="button" class="btn btn-success" id="addsocks" (click)="addSocks()">+</button>
+        </div>
+    </div>
+
+</div>
+<div>
+    <pre class="total circle">{{cal}}</pre>
+    <!-- <router-outlet></router-outlet> -->
+</div>
